@@ -29,3 +29,5 @@ challenge-assets/
 # AI assistant config
 AGENTS.md
 CLAUDE.md
+
+.vite

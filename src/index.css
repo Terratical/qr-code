@@ -10,25 +10,30 @@
   --spacing-lg: 40px;
   --spacing-md: 24px;
   --spacing-sm: 16px;
+
+  --primary: var(--primary);
+  --secondary: var(--secondary);
 }
 
 :root {
+  --primary: #1f314f;
+  --secondary: #68778d;
 }
 
 .card-title {
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 120%;
   letter-spacing: 0px;
   font-family: "Outfit Bold";
   font-weight: 700;
-  color: #1f314f;
+  color: var(--primary);
 }
 
 .card-paragraph {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 140%;
   font-family: "Outfit Regular";
-  color: #68778d;
+  color: var(--secondary);
 }
 
 html {
