@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Challenge assets (proprietary)
+challenge-assets/
+
+# AI assistant config
+AGENTS.md
+CLAUDE.md
