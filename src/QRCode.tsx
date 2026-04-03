@@ -9,7 +9,7 @@ function QRCode() {
           alt="QR code linking to frontend mentor"
           className="h-auto w-full rounded-2xl"
         ></img>
-        <caption className="flex flex-col gap-2 py-4 text-center">
+        <figcaption className="flex flex-col gap-2 py-4 text-center">
           <h1 className="card-title">
             Improve your front-end skills by building projects
           </h1>
@@ -17,7 +17,7 @@ function QRCode() {
             Scan the QR code to visit Frontend Mentor and take your coding
             skills to the next level
           </p>
-        </caption>
+        </figcaption>
       </figure>
     </main>
   );
