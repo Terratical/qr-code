@@ -4,7 +4,7 @@
   --primary: #1f314f;
   --secondary: #68778d;
 
-  --bg-surface: #d5e1ef;
+  --page-background: #d5e1ef;
   --spacing-lg: 40px;
   --spacing-md: 24px;
   --spacing-sm: 16px;
@@ -27,5 +27,5 @@
 }
 
 html {
-  background-color: var(--bg-surface);
+  background-color: var(--page-background);
 }
